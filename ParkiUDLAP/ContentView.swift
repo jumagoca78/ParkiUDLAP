@@ -18,7 +18,7 @@ struct ContentView: View {
                 Image(systemName: "heart.fill")
                     .imageScale(.large)
                     .foregroundStyle(.red)
-                Text("Hola tonotos!")
+                Text("Hola!")
                 
             }
             .padding()
