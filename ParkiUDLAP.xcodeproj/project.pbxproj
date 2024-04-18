@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A0DDEC22BD1C99800590D35 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0DDEC12BD1C99800590D35 /* LogInView.swift */; };
 		6AEC385D2BD1C36E0070C261 /* ParkiUDLAPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC385C2BD1C36E0070C261 /* ParkiUDLAPApp.swift */; };
-		6AEC385F2BD1C36E0070C261 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC385E2BD1C36E0070C261 /* ContentView.swift */; };
 		6AEC38612BD1C36F0070C261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AEC38602BD1C36F0070C261 /* Assets.xcassets */; };
 		6AEC38642BD1C36F0070C261 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AEC38632BD1C36F0070C261 /* Preview Assets.xcassets */; };
 		6AEC386E2BD1C36F0070C261 /* ParkiUDLAPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEC386D2BD1C36F0070C261 /* ParkiUDLAPTests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A0DDEC12BD1C99800590D35 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
 		6AEC38592BD1C36E0070C261 /* ParkiUDLAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkiUDLAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AEC385C2BD1C36E0070C261 /* ParkiUDLAPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkiUDLAPApp.swift; sourceTree = "<group>"; };
-		6AEC385E2BD1C36E0070C261 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6AEC38602BD1C36F0070C261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AEC38632BD1C36F0070C261 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6AEC38692BD1C36F0070C261 /* ParkiUDLAPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParkiUDLAPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,6 +71,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A0DDEBC2BD1C93C00590D35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A0DDEC12BD1C99800590D35 /* LogInView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A0DDEBD2BD1C94900590D35 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A0DDEBE2BD1C94F00590D35 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6AEC38602BD1C36F0070C261 /* Assets.xcassets */,
+				6AEC385C2BD1C36E0070C261 /* ParkiUDLAPApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		6AEC38502BD1C36E0070C261 = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +118,9 @@
 		6AEC385B2BD1C36E0070C261 /* ParkiUDLAP */ = {
 			isa = PBXGroup;
 			children = (
-				6AEC385C2BD1C36E0070C261 /* ParkiUDLAPApp.swift */,
-				6AEC385E2BD1C36E0070C261 /* ContentView.swift */,
-				6AEC38602BD1C36F0070C261 /* Assets.xcassets */,
+				6A0DDEBE2BD1C94F00590D35 /* App */,
+				6A0DDEBD2BD1C94900590D35 /* Models */,
+				6A0DDEBC2BD1C93C00590D35 /* Views */,
 				6AEC38622BD1C36F0070C261 /* Preview Content */,
 			);
 			path = ParkiUDLAP;
@@ -257,7 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AEC385F2BD1C36E0070C261 /* ContentView.swift in Sources */,
+				6A0DDEC22BD1C99800590D35 /* LogInView.swift in Sources */,
 				6AEC385D2BD1C36E0070C261 /* ParkiUDLAPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

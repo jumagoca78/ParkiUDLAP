@@ -11,7 +11,7 @@ import SwiftUI
 struct ParkiUDLAPApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LogInView()
         }
     }
 }
