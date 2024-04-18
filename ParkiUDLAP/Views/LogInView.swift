@@ -23,7 +23,7 @@ struct LogInView: View
                     .foregroundStyle(.red)
                     .frame(width: 100, height: 100)
                 Text("Hola tonotos!")
-                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .font(.title)
             }
         }
     }
